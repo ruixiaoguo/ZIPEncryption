@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21071218264BBA1600851296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21071217264BBA1600851296 /* AppDelegate.m */; };
+		21071221264BBA1600851296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2107121F264BBA1600851296 /* Main.storyboard */; };
+		21071223264BBA1900851296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21071222264BBA1900851296 /* Assets.xcassets */; };
+		21071226264BBA1900851296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21071224264BBA1900851296 /* LaunchScreen.storyboard */; };
+		21071229264BBA1900851296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21071228264BBA1900851296 /* main.m */; };
+		21071231264BBA3300851296 /* Uj.m in Sources */ = {isa = PBXBuildFile; fileRef = 21071230264BBA3300851296 /* Uj.m */; };
+		21071234264BBB9100851296 /* Games.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 21071233264BBB9100851296 /* Games.MP4 */; };
+		21071242264BBC7C00851296 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 21071237264BBC7C00851296 /* unzip.c */; };
+		21071243264BBC7C00851296 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 21071238264BBC7C00851296 /* zip.c */; };
+		21071244264BBC7C00851296 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 21071239264BBC7C00851296 /* ioapi.c */; };
+		21071245264BBC7C00851296 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 2107123A264BBC7C00851296 /* mztools.c */; };
+		21071246264BBC7C00851296 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 21071241264BBC7C00851296 /* SSZipArchive.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21071213264BBA1600851296 /* ZIPEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZIPEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21071216264BBA1600851296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21071217264BBA1600851296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21071220264BBA1600851296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21071222264BBA1900851296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21071225264BBA1900851296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21071227264BBA1900851296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21071228264BBA1900851296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2107122F264BBA3300851296 /* Uj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uj.h; sourceTree = "<group>"; };
+		21071230264BBA3300851296 /* Uj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uj.m; sourceTree = "<group>"; };
+		21071232264BBA8200851296 /* GGHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGHeader.h; sourceTree = "<group>"; };
+		21071233264BBB9100851296 /* Games.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Games.MP4; sourceTree = "<group>"; };
+		21071237264BBC7C00851296 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		21071238264BBC7C00851296 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		21071239264BBC7C00851296 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		2107123A264BBC7C00851296 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		2107123B264BBC7C00851296 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		2107123C264BBC7C00851296 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		2107123D264BBC7C00851296 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		2107123E264BBC7C00851296 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		2107123F264BBC7C00851296 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		21071240264BBC7C00851296 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		21071241264BBC7C00851296 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21071210264BBA1600851296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2107120A264BBA1600851296 = {
+			isa = PBXGroup;
+			children = (
+				21071215264BBA1600851296 /* ZIPEncryption */,
+				21071214264BBA1600851296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21071214264BBA1600851296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21071213264BBA1600851296 /* ZIPEncryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21071215264BBA1600851296 /* ZIPEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				21071235264BBC7C00851296 /* SSZipArchive */,
+				2107122F264BBA3300851296 /* Uj.h */,
+				21071230264BBA3300851296 /* Uj.m */,
+				21071233264BBB9100851296 /* Games.MP4 */,
+				21071232264BBA8200851296 /* GGHeader.h */,
+				21071216264BBA1600851296 /* AppDelegate.h */,
+				21071217264BBA1600851296 /* AppDelegate.m */,
+				2107121F264BBA1600851296 /* Main.storyboard */,
+				21071222264BBA1900851296 /* Assets.xcassets */,
+				21071224264BBA1900851296 /* LaunchScreen.storyboard */,
+				21071227264BBA1900851296 /* Info.plist */,
+				21071228264BBA1900851296 /* main.m */,
+			);
+			path = ZIPEncryption;
+			sourceTree = "<group>";
+		};
+		21071235264BBC7C00851296 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				21071236264BBC7C00851296 /* minizip */,
+				21071240264BBC7C00851296 /* SSZipArchive.h */,
+				21071241264BBC7C00851296 /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		21071236264BBC7C00851296 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				21071237264BBC7C00851296 /* unzip.c */,
+				21071238264BBC7C00851296 /* zip.c */,
+				21071239264BBC7C00851296 /* ioapi.c */,
+				2107123A264BBC7C00851296 /* mztools.c */,
+				2107123B264BBC7C00851296 /* crypt.h */,
+				2107123C264BBC7C00851296 /* zip.h */,
+				2107123D264BBC7C00851296 /* unzip.h */,
+				2107123E264BBC7C00851296 /* mztools.h */,
+				2107123F264BBC7C00851296 /* ioapi.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21071212264BBA1600851296 /* ZIPEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2107122C264BBA1900851296 /* Build configuration list for PBXNativeTarget "ZIPEncryption" */;
+			buildPhases = (
+				2107120F264BBA1600851296 /* Sources */,
+				21071210264BBA1600851296 /* Frameworks */,
+				21071211264BBA1600851296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIPEncryption;
+			productName = ZIPEncryption;
+			productReference = 21071213264BBA1600851296 /* ZIPEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2107120B264BBA1600851296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					21071212264BBA1600851296 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 2107120E264BBA1600851296 /* Build configuration list for PBXProject "ZIPEncryption" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2107120A264BBA1600851296;
+			productRefGroup = 21071214264BBA1600851296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21071212264BBA1600851296 /* ZIPEncryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21071211264BBA1600851296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21071226264BBA1900851296 /* LaunchScreen.storyboard in Resources */,
+				21071234264BBB9100851296 /* Games.MP4 in Resources */,
+				21071223264BBA1900851296 /* Assets.xcassets in Resources */,
+				21071221264BBA1600851296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2107120F264BBA1600851296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21071244264BBC7C00851296 /* ioapi.c in Sources */,
+				21071231264BBA3300851296 /* Uj.m in Sources */,
+				21071218264BBA1600851296 /* AppDelegate.m in Sources */,
+				21071242264BBC7C00851296 /* unzip.c in Sources */,
+				21071246264BBC7C00851296 /* SSZipArchive.m in Sources */,
+				21071245264BBC7C00851296 /* mztools.c in Sources */,
+				21071243264BBC7C00851296 /* zip.c in Sources */,
+				21071229264BBA1900851296 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2107121F264BBA1600851296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21071220264BBA1600851296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21071224264BBA1900851296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21071225264BBA1900851296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2107122A264BBA1900851296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2107122B264BBA1900851296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2107122D264BBA1900851296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNL38GZBJ4;
+				INFOPLIST_FILE = ZIPEncryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZIPEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2107122E264BBA1900851296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNL38GZBJ4;
+				INFOPLIST_FILE = ZIPEncryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZIPEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2107120E264BBA1600851296 /* Build configuration list for PBXProject "ZIPEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2107122A264BBA1900851296 /* Debug */,
+				2107122B264BBA1900851296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2107122C264BBA1900851296 /* Build configuration list for PBXNativeTarget "ZIPEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2107122D264BBA1900851296 /* Debug */,
+				2107122E264BBA1900851296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2107120B264BBA1600851296 /* Project object */;
+}
